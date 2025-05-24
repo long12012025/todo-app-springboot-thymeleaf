@@ -25,3 +25,25 @@ Built with Spring Boot, Thymeleaf, Bootstrap, and follows clean architecture pri
 
 ## 📦 Project Structure
 
+src
+└── main
+├── java
+│ └── com.example.demo
+│ ├── controller
+│ ├── service
+│ ├── entity
+│ └── repository
+└── resources
+├── templates/
+└── application.properties
+## ▶️ Run Locally
+
+### 🛠 Prerequisites:
+- JDK 17+
+- Maven 3.8+
+
+### 💻 Commands:
+```bash
+git clone https://github.com/long12012025/todo-app-springboot-thymeleaf.git
+cd todo-app-springboot-thymeleaf
+mvn spring-boot:run
